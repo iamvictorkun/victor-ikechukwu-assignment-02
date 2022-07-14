@@ -14,9 +14,11 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 function sumOfNumbers(arrayOfNumbers) {
-  const sumOfArrayNumbers = arrayOfNumbers.reduce((a, b) => a + b, 0);
+  const sumOfArrayNumbers = arrayOfNumbers.reduce((accumulator, number) => a + b, 0);
   return sumOfArrayNumbers;
 }
+
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -55,6 +57,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
 return FahrenheitArray;
 }
 
+assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 // ========================
 // DO NOT EDIT THIS BLOCK
