@@ -56,7 +56,6 @@ return FahrenheitArray;
 }
 
 
-
 // ========================
 // DO NOT EDIT THIS BLOCK
 module.exports = assignment;
